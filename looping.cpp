@@ -19,3 +19,19 @@ int main(){
      //Perulangan dengan WHILE
     cout<<"PERULANGAN WHILE"<<endl;
     x = 1 + rand()%10;
+
+     while(x<=5){
+        cout<<"Bilangan acak = "<<x<<endl;
+        x = rand()%10;
+    }
+     cout<<"Bilangan acak while yang terakhir = "<<x<<endl;
+    cout<<endl;
+
+      //Perulangan dengan DO...WHILE
+    cout<<"PERULANGAN DO...WHILE"<<endl;
+    x = 1 + rand()%10;
+    do{
+        cout<<"Bilangan acak = "<<x<<endl;
+        x = rand()%10;
+    }while(x<=5);
+    
